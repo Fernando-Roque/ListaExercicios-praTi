@@ -7,7 +7,7 @@ const prompt = require("prompt-sync")()
 
 let num = parseFloat(prompt("Digite o Número para saber o Fatorial. "))
 
-let vetorresp = [] , cont = 0
+let vetorresp = [] 
 //console.log(fibonacci(num)) // chama a função fibonacci
 
 
@@ -18,9 +18,10 @@ function fibonacci(num) {
 }
 
 for (let i = 0; i < num; i++) {
-   vetorresp[i] = fibonacci(i)
+   console.log(fibonacci(i))
+   //vetorresp[i] = fibonacci(i)
 }
 
-for (let i = 0; i < num; i++) {
-   console.log(vetorresp[i])
-}
+//for (let i = 0; i < num; i++) {
+//   console.log(vetorresp[i])
+//}
